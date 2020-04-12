@@ -2,7 +2,8 @@ package org.foo
 
 class Helper{
   def steps
+  Helper(steps) {this.steps = steps}
   void doThing(){
-    steps.println "doing a thing" 
+    steps.echo "doing a thing" 
   }
 }
